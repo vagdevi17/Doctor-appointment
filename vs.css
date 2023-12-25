@@ -1,0 +1,241 @@
+/* Your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+  }
+
+  header{
+    /* Styles for header and footer */
+    background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  
+  .page-content {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    background-color: #fff;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .intro-content {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img img {
+    width: 130px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px; /* Spacing between image and text */
+  }
+  
+  .intro-text h1 {
+    margin: 0;
+  }
+  
+  .intro-text p {
+    margin-top: 5px;
+    color: #777;
+  }
+  .profile-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-btn:hover {
+    background-color: green;
+  }
+  .book-appointment {
+    border: none; /* Remove the existing border */
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 40%;
+  transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth animation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .book-appointment:hover {
+    transform: scale(1.05); /* Scale up the size on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .book-appointment h2 {
+    margin: 0;
+  }
+  
+  .book-appointment p {
+    margin-top: 5px;
+    color: #777;
+  }
+  /* Your existing CSS styles */
+
+  .clinic-info {
+    margin-top: 20px;
+    padding: 15px; /* Add padding for space around the clinic information */
+  }
+  
+  .clinic-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .clinic-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+  .circle-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:green; /* Button color */
+    color: #fff;
+    border-radius: 50%; /* Makes it circular */
+    text-align: center;
+    line-height: 20px; /* Centers the icon vertically */
+    margin-left: 10px; /* Adjust the space between text and button */
+  }
+  .booking-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+  .faq {
+    margin-top: 30px;
+    background-color: #e8f794;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* FAQ title color */
+    text-align: center;
+  }
+  
+  .faq ul {
+    list-style-type: none;
+    padding: 40px;
+    margin-left: 15%;
+    width: 60%;
+    
+    
+  
+  }
+  
+  .faq ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    border-bottom: 1.2px solid #eee;
+    padding-bottom: 10px;
+    color: #555; /* FAQ item color */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+  }
+  .question-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; /* Margin between question buttons */
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .arrow-down {
+    font-size: 18px;
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+  }
+  .answer-box {
+    display: none; /* Hide all answer boxes by default */
+    background-color: #f5f5f5; /* Background color similar to question button */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding for size */
+    margin-top: 10px;
+  }
+  
+  .answer-box.active {
+    display: block; /* Display answer box when it has 'active' class */
+  }
+  footer{
+    background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  }
+  
+  
+  
+  /* Style your header, main, footer, etc. */
+  
+  

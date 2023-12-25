@@ -1,0 +1,310 @@
+/* Your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+  
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-button, .back-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover, .back-button:hover {
+    background-color: #218838;
+}
+.profile-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.profile-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Treatments section styles */
+.treatments-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.treatments-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+  
+main {
+    padding: 20px;
+}
+  
+.profile {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+  
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+  
+.profile-img img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+  
+.profile-details h1 {
+    margin: 0;
+    color: #333;
+}
+  
+
+  
+.profile-content h2 {
+    margin-top: 20px;
+    color: #333;
+}
+  
+.profile-content p {
+    color: #555;
+}
+header nav {
+    text-align: right;
+}
+  
+.about-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.about-btn:hover {
+    background-color: #0056b3;
+}
+  
+.back-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.back-btn:hover {
+    background-color: #ddd;
+}
+.profile-details h2 {
+    
+    margin-top: 20px;
+}
+.profile-details h3 {
+    font-size: medium;
+    margin-top: 20px;
+}
+.profile-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.book-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.book-btn:hover {
+    background-color: #218838;
+}
+.treatments-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.treatments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.treatment {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(50% - 10px); /* Two treatments per row */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Ensure equal height for treatment boxes */
+.treatment {
+    height: 220px; /* Adjust the height as needed */
+}
+.treatment img {
+    display: block;
+    width: 32%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth effect */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.treatment img:hover {
+    transform: scale(1.05); /* Example scale effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Example shadow effect on hover */
+}
+.treatment h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling for treatment buttons */
+.treatment-button {
+    text-decoration: none;
+    width: calc(50% - 10px);
+    transition: transform 0.2s, box-shadow 0.2s; /* Adding transition for smooth effect */
+}
+
+.treatment-button:hover .treatment {
+    /* Add hover effects if needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow effect on hover */
+    transform: translateY(-3px); /* Example lift effect on hover */
+}
+.faq {
+    margin-top: 30px;
+    background-color: #9ef794;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.faq h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* FAQ title color */
+    text-align: center;
+}
+  
+.faq ul {
+    list-style-type: none;
+    padding: 40px;
+    margin-left: 15%;
+    width: 60%;
+    
+    
+  
+}
+  
+.faq ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    border-bottom: 1.2px solid #eee;
+    padding-bottom: 10px;
+    color: #555; /* FAQ item color */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+}
+.question-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; /* Margin between question buttons */
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+  
+.arrow-down {
+    font-size: 18px;
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+.answer-box {
+    display: none; /* Hide all answer boxes by default */
+    background-color: #f5f5f5; /* Background color similar to question button */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px;
+    padding: 10px; /* Adjust padding for size */
+    margin-top: 10px;
+}
+  
+.answer-box.active {
+    display: block; /* Display answer box when it has 'active' class */
+}
+
+
+footer{
+    background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.contact-info h2 {
+    margin-top: 20px;
+}
+.contact-info p{
+    color:white;
+}
+
+
+  
